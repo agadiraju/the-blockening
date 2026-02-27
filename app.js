@@ -9,6 +9,7 @@ const SECTIONS = [
     items: [
       { id: 'urg-workday-email',   text: 'Check your personal email — Workday login credentials (username + temp password) arrive within 24 hours. If they do not, email askpeople@squareup.com' },
       { id: 'urg-workday-login',   text: 'Log into Workday and update your personal contact information' },
+      { id: 'urg-workday-id',      text: 'Write down and copy your Workday ID: click on the person icon on the top right → View Profile → Personal → IDs' },
       { id: 'urg-docs-location',   text: 'In Workday, click on the person icon on the top right → Profile to find your Post-Block Benefits Guide, RSU info, and Payroll Access info' },
       { id: 'urg-agreement-check', text: 'Check your Workday inbox for your separation agreement — arrives within 48 hours (some employees receive it via DocuSign email instead)' },
       { id: 'urg-agreement-date',  text: 'Add the signing deadline from the agreement to your personal calendar — Block cannot extend this date' },
@@ -28,7 +29,7 @@ const SECTIONS = [
       { id: 'agr-dates',            text: 'Record your key dates on your personal calendar: Notification Date, Separation Date, and Extended Separation Date (if applicable for LOA or NY state)' },
       { id: 'agr-ny',               text: '(NY state only) Your non-working notice period is 90 days instead of 60' },
       { id: 'agr-sign',             text: 'Open the task in your Workday inbox, electronically sign your agreement, and submit to complete' },
-      { id: 'agr-confirm',          text: 'Confirm your signed copy: Workday → Personal → Documents → Generated Documents (scroll to bottom)' },
+      { id: 'agr-confirm',          text: 'Confirm your signed copy: Workday → Personal → Documents → Generated Documents (scroll to bottom) — allow up to 24 hours for the signed copy to appear' },
     ],
   },
   {
