@@ -12,7 +12,7 @@ const SECTIONS = [
       { id: 'urg-docs-location',   text: 'In Workday, go to Profile → Overview to find your Post-Block Benefits Guide, RSU info, and Payroll Access info' },
       { id: 'urg-agreement-check', text: 'Check your Workday inbox for your separation agreement — arrives within 48 hours (some employees receive it via DocuSign email instead)' },
       { id: 'urg-agreement-date',  text: 'Note your signing deadline from the agreement — Block cannot extend this date' },
-      { id: 'urg-timesheet',       text: '(Non-exempt US) If your timecard for time worked before Feb 26 is incomplete, submit the Manual Timesheet in Workday to payrollrequests@squareup.com by Monday, March 2' },
+      { id: 'urg-timesheet',       text: '(Non-exempt US) If your timecard for time worked before Feb 26 is incomplete, submit the Manual Timesheet in Workday to payrollrequests@squareup.com by Monday, March 2 — if you don\'t see the Manual Timesheet in Workday, email askpeople@squareup.com' },
     ],
   },
   {
@@ -21,9 +21,10 @@ const SECTIONS = [
     icon: '📋',
     color: 'ic-teal',
     items: [
+      { id: 'agr-review',           text: 'Review and evaluate your options laid out in the severance agreement. <strong>Do NOT proceed with the rest of this section until you are comfortable signing the agreement.</strong> Consult with an employment lawyer if you wish — most initial consultations are free or discounted.' },
       { id: 'agr-sign',             text: 'Open the task in your Workday inbox, electronically sign your agreement, and submit to complete' },
       { id: 'agr-confirm',          text: 'Confirm your signed copy: Workday → Personal → Documents → Generated Documents (scroll to bottom)' },
-      { id: 'agr-severance-calc',   text: 'Review your severance: minimum 7 weeks base pay + 1 additional week per year at Block (tenure rounds up after 6 months)' },
+      { id: 'agr-severance-calc',   text: 'Review your severance: minimum 7 weeks base pay + 1 additional week per year at Block (tenure rounds up after 6 months) — <strong>this is paid out after your official separation date, which for most US employees is sometime in May</strong>' },
       { id: 'agr-severance-timing', text: 'Severance payment arrives within 30 days of your separation date via direct deposit — it cannot be expedited' },
       { id: 'agr-transition',       text: 'Confirm your $5,000 one-time transition assistance payment, included with severance' },
       { id: 'agr-cobra-covered',    text: 'Signing your agreement unlocks 3 months of Block-covered COBRA premiums — you must still enroll through Optum to receive this' },
@@ -37,7 +38,7 @@ const SECTIONS = [
     icon: '🏥',
     color: 'ic-blue',
     items: [
-      { id: 'ben-coverage-end',  text: 'Your benefits continue through the last day of your termination month — not just your last working day' },
+      { id: 'ben-coverage-end',  text: 'Your benefits continue through the last day of your termination month — not just your last working day (your separation date is specified in your agreement; for most US employees it falls sometime in May)' },
       { id: 'ben-post-guide',    text: 'Download the Post-Block Benefits Guide from Workday → Profile → Overview for details on what happens after termination' },
       { id: 'ben-cobra-packet',  text: 'Watch for a COBRA packet from Optum in the mail — arrives 10–14 business days after your benefits coverage ends' },
       { id: 'ben-cobra-enroll',  text: 'Enroll in COBRA through Optum — you have 60 days from the packet or your separation date, whichever is later' },

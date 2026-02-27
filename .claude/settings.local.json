@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:squareup.app.box.com)",
+      "Bash(curl:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "Bash(git:*)",
+      "Bash(netlify:*)",
+      "Bash(npm install:*)",
+      "Bash(brew install:*)"
+    ]
+  }
+}
