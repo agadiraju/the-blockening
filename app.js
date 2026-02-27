@@ -12,7 +12,6 @@ const SECTIONS = [
       { id: 'urg-docs-location',   text: 'In Workday, go to Profile → Overview to find your Post-Block Benefits Guide, RSU info, and Payroll Access info' },
       { id: 'urg-agreement-check', text: 'Check your Workday inbox for your separation agreement — arrives within 48 hours (some employees receive it via DocuSign email instead)' },
       { id: 'urg-agreement-date',  text: 'Note your signing deadline from the agreement — Block cannot extend this date' },
-      { id: 'urg-personal-files',  text: 'Back up any personal files from Block devices before they are remotely wiped' },
       { id: 'urg-timesheet',       text: '(Non-exempt US) If your timecard for time worked before Feb 26 is incomplete, submit the Manual Timesheet in Workday to payrollrequests@squareup.com by Monday, March 2' },
     ],
   },
