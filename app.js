@@ -101,7 +101,6 @@ const SECTIONS = [
       { id: 'car-lhh-wait',     text: 'Expect contact from LHH within 5–7 business days of signing; find the LHH flyer in your Workday documents if you need to reach out directly' },
       { id: 'car-eap',          text: 'Access Block\'s Employee Assistance Program (EAP) — 3 months of free, 24/7 confidential emotional support and referral resources (details in offboarding materials)' },
       { id: 'car-linkedin',     text: 'Update your LinkedIn profile (headline, summary, current role end date) before your work email is deactivated' },
-      { id: 'car-linkedin-recs',text: 'Export your LinkedIn connections and request recommendations from teammates and managers' },
       { id: 'car-resume',       text: 'Update your resume with your Block role, dates, and key accomplishments' },
       { id: 'car-network',      text: 'Reach out to your professional network — a brief note goes a long way' },
     ],
