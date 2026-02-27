@@ -23,7 +23,7 @@ const SECTIONS = [
     items: [
       { id: 'agr-review',           text: 'Review and evaluate your options laid out in the severance agreement. <strong>Do NOT proceed with the rest of this section until you are comfortable signing the agreement.</strong> Consult with an employment lawyer if you wish — most initial consultations are free or discounted.' },
       { id: 'agr-severance-calc',   text: 'Review your severance: minimum 7 weeks base pay + 1 additional week per year at Block (tenure rounds up after 6 months) — <strong>this is paid out after your official extended separation date, which for most US employees is sometime in May</strong>' },
-      { id: 'agr-severance-formula', text: 'Use this formula to see if your severance payout is in the right ballpark<br><br><strong>INPUTS:</strong><br>A = Annual Base Salary<br>B = Base Severance Weeks = 20<br>T = Tenure Years (rounded)<br>N = Paid Notice Weeks = 13 (up to May 28, 2026, if you sign the extended agreement)<br><br><strong>Severance Package = (A ÷ 52) × (B + T − N)</strong><br><br>Note: this assumes the 20-week base is standard for all employees — your personal situation may vary.' },
+      { id: 'agr-severance-formula', text: 'Use this formula to see if your severance payout is in the right ballpark<br><br><strong>INPUTS:</strong><br>A = Annual Base Salary<br>B = Base Severance Weeks = 20<br>T = Tenure Years (rounded)<br>N = Paid Notice Weeks = 13 (up to May 28, 2026, if you sign the extended agreement. This may vary.)<br><br><strong>Severance Package = (A ÷ 52) × (B + T − N)</strong><br><br>Note: this assumes the 20-week base is standard for all employees — your personal situation may vary.' },
       { id: 'agr-transition',       text: 'Confirm your one-time transition assistance payment, included with severance. This is in addition to the gross "Separation Pay"' },
       { id: 'agr-dates',            text: 'Record your key dates on your personal calendar: Notification Date, Separation Date, and Extended Separation Date (if applicable for LOA or NY state)' },
       { id: 'agr-ny',               text: '(NY state only) Your non-working notice period is 90 days instead of 60' },
@@ -41,7 +41,7 @@ const SECTIONS = [
       { id: 'ben-post-guide',    text: 'Download the Post-Block Benefits Guide from Workday → Profile → Overview for details on what happens after termination' },
       { id: 'ben-cobra-packet',  text: 'Watch for a COBRA packet from Optum in the mail — arrives 10–14 business days after your benefits coverage ends' },
       { id: 'ben-cobra-enroll',  text: 'Enroll in COBRA through Optum — you have 60 days from the packet or your separation date, whichever is later' },
-      { id: 'ben-cobra-note',    text: 'Signing your agreement unlocks 3 months of Block-covered COBRA premiums after your separation date — you must still enroll through Optum to receive this' },
+      { id: 'ben-cobra-note',    text: 'Signing your agreement unlocks 3 months of Block-covered COBRA premiums after your separation date — you must still enroll through Optum to receive this.<br><br><strong>PSA: if your spouse has their own employer plan, think carefully before choosing COBRA. Losing your coverage is a Qualifying Life Event (QLE) that lets you join their plan — but if you elect COBRA instead, you may forfeit that option until COBRA runs out (up to 18 months). If a spouse\'s plan is available to you, it may be the better choice.</strong>' },
       { id: 'ben-401k',          text: 'Adjust 401K contribution elections if needed via your Fidelity NetBenefits account (changes take 1–2 pay periods)' },
       { id: 'ben-loa',           text: '(On LOA) Review your separation agreement carefully — your separation date may be extended to the end of your approved leave' },
       { id: 'ben-unemployment',  text: 'File for unemployment insurance promptly — deadlines vary by state, typically within 1–2 weeks of your separation date' },
@@ -98,6 +98,7 @@ const SECTIONS = [
     icon: '🔍',
     color: 'ic-rose',
     items: [
+      { id: 'car-accomplishments', text: 'Write down as many details of projects, work streams, and accomplishments from your time at Block while it\'s still fresh in your mind' },
       { id: 'car-lhh-activate', text: 'Sign your separation agreement to activate Lee Hecht Harrison (LHH) career transition services — 3 months of interview prep, resume workshops, and more' },
       { id: 'car-lhh-wait',     text: 'Expect contact from LHH within 5–7 business days of signing; find the LHH flyer in your Workday documents if you need to reach out directly' },
       { id: 'car-eap',          text: 'Access Block\'s Employee Assistance Program (EAP) — 3 months of free, 24/7 confidential emotional support and referral resources (details in offboarding materials)' },
