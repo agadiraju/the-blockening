@@ -11,7 +11,7 @@ const SECTIONS = [
       { id: 'urg-workday-login',   text: 'Log into Workday and update your personal contact information' },
       { id: 'urg-docs-location',   text: 'In Workday, click on the person icon on the top right → Profile to find your Post-Block Benefits Guide, RSU info, and Payroll Access info' },
       { id: 'urg-agreement-check', text: 'Check your Workday inbox for your separation agreement — arrives within 48 hours (some employees receive it via DocuSign email instead)' },
-      { id: 'urg-agreement-date',  text: 'Note your signing deadline from the agreement — Block cannot extend this date' },
+      { id: 'urg-agreement-date',  text: 'Add the signing deadline from the agreement to your personal calendar — Block cannot extend this date' },
       { id: 'urg-timesheet',       text: '(Non-exempt US) If your timecard for time worked before Feb 26 is incomplete, submit the Manual Timesheet in Workday to payrollrequests@squareup.com by Monday, March 2 — if you don\'t see the Manual Timesheet in Workday, email askpeople@squareup.com' },
     ],
   },
@@ -23,7 +23,8 @@ const SECTIONS = [
     items: [
       { id: 'agr-review',           text: 'Review and evaluate your options laid out in the severance agreement. <strong>Do NOT proceed with the rest of this section until you are comfortable signing the agreement.</strong> Consult with an employment lawyer if you wish — most initial consultations are free or discounted.' },
       { id: 'agr-severance-calc',   text: 'Review your severance: minimum 7 weeks base pay + 1 additional week per year at Block (tenure rounds up after 6 months) — <strong>this is paid out after your official extended separation date, which for most US employees is sometime in May</strong>' },
-      { id: 'agr-transition',       text: 'Confirm your one-time transition assistance payment, included with severance' },
+      { id: 'agr-severance-formula', text: 'Use this formula to see if your severance payout is in the right ballpark<br><br><strong>INPUTS:</strong><br>A = Annual Base Salary<br>B = Base Severance Weeks = 20<br>T = Tenure Years (rounded)<br>N = Paid Notice Weeks = 13 (up to May 28, 2026, if you sign the extended agreement)<br><br><strong>Severance Package = (A ÷ 52) × (B + T − N)</strong><br><br>Note: this assumes the 20-week base is standard for all employees — your personal situation may vary.' },
+      { id: 'agr-transition',       text: 'Confirm your one-time transition assistance payment, included with severance. This is in addition to the gross "Separation Pay"' },
       { id: 'agr-dates',            text: 'Record your key dates on your personal calendar: Notification Date, Separation Date, and Extended Separation Date (if applicable for LOA or NY state)' },
       { id: 'agr-ny',               text: '(NY state only) Your non-working notice period is 90 days instead of 60' },
       { id: 'agr-sign',             text: 'Open the task in your Workday inbox, electronically sign your agreement, and submit to complete' },
