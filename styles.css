@@ -476,7 +476,8 @@ body {
   color: var(--text-muted);
 }
 
-.item-text strong {
+.item-text strong,
+.hero-body strong {
   font-weight: 700;
   color: var(--text-primary);
 }
