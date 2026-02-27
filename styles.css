@@ -205,6 +205,11 @@ body {
   line-height: 1.8;
 }
 
+.hero-body a {
+  color: var(--accent);
+  text-underline-offset: 2px;
+}
+
 /* ─── Overall Progress ────────────────────── */
 
 .progress-wrap {
